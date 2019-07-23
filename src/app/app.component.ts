@@ -8,11 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title: string = 'angular-crash-todolist';
 
-  constructor() {
-
-  }
-
-  changeName(name: string): void {
-
-  }
 }

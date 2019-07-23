@@ -9,13 +9,19 @@
     * Router - yes
     * CSS
 * ng serve --open
-    *Runs server and opens browser at localhost:4200
+    * Runs server and opens browser at localhost:4200
+* ng generate component componentName
+    * can create subfolder with component components/componentName
+    * shortcut command
+        `ng g c componentName`
 
 ##Syntax
 * Imports
 * Decorator (@Component() {} )
 * Class
 * Can add constructor
+* ngOnInit() is like ComponentDidMount() in React
+* ngFor="let todo of todos"
 
 ##Files
 * index.html = root file
@@ -24,9 +30,12 @@
 
 ##Tips
 * Change .ts defaults to Typescript
-title = ‘application’ => title: string = ‘application’
+`title = ‘application’` => `title: string = ‘application’`
 * PIPES - look at docs for more
-{{ name | uppercase }} like name.toUpperCase()
+`{{ name | uppercase }} like name.toUpperCase()`
+* Components must be wrapped in a single root (div) like in React
+* Optional field in class model - id?:number
+
 
 ##Typescript
 * If a function doesn’t return anything add :void after ) and before {
