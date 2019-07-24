@@ -3,7 +3,7 @@
 [YouTube](https://www.youtube.com/watch?v=Fdf5aTYRW0E)
 [Github](https://www.youtube.com/redirect?q=https%3A%2F%2Fgithub.com%2Fbradtraversy%2Fangular-crash-todolist&event=video_description&v=Fdf5aTYRW0E&redir_token=GK8jRdn6BsSJA_-GdGIyvL44c8d8MTU2MzkzMzc1MUAxNTYzODQ3MzUx)
 
-##Commands
+## Commands
 * ng --version
 * ng new ApplicationName
     * Router - yes
@@ -18,7 +18,7 @@
 * ng build
     * creates dist folder for deployment
 
-##Syntax
+## Syntax
 * Imports
 * Decorator (@Component() {} )
 * Class
@@ -26,12 +26,12 @@
 * ngOnInit() is like ComponentDidMount() in React
 * ngFor="let todo of todos"
 
-##Files
+## Files
 * index.html = root file
 * app.module.ts = where new components are imported
 (angular/cli does it automatically)
 
-##Tips
+## Tips
 * Change .ts defaults to Typescript
 `title = ‘application’` => `title: string = ‘application’`
 * PIPES - look at docs for more
@@ -42,7 +42,7 @@
 * .subscribe() to an Observable is like .then() in JS/Axios/Fetch
 
 
-##Typescript
+## Typescript
 * If a function doesn’t return anything add :void after ) and before {
     ```
     changeName(name: string):void {
