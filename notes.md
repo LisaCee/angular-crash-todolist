@@ -15,6 +15,8 @@
     * shortcut command
         `ng g c componentName`
 * ng g s serviceName
+* ng build
+    * creates dist folder for deployment
 
 ##Syntax
 * Imports
