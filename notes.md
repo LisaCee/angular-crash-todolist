@@ -1,4 +1,4 @@
-#Angular Crash Course Notes
+# Angular Crash Course Notes
 
 [YouTube](https://www.youtube.com/watch?v=Fdf5aTYRW0E)
 [Github](https://www.youtube.com/redirect?q=https%3A%2F%2Fgithub.com%2Fbradtraversy%2Fangular-crash-todolist&event=video_description&v=Fdf5aTYRW0E&redir_token=GK8jRdn6BsSJA_-GdGIyvL44c8d8MTU2MzkzMzc1MUAxNTYzODQ3MzUx)
