@@ -14,6 +14,7 @@
     * can create subfolder with component components/componentName
     * shortcut command
         `ng g c componentName`
+* ng g s serviceName
 
 ##Syntax
 * Imports
@@ -35,6 +36,8 @@
 `{{ name | uppercase }} like name.toUpperCase()`
 * Components must be wrapped in a single root (div) like in React
 * Optional field in class model - id?:number
+* Services are usually private
+* .subscribe() to an Observable is like .then() in JS/Axios/Fetch
 
 
 ##Typescript
